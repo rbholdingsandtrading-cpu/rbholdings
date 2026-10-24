@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="RB Group">
-  <!-- Logo vẽ lại tạm, thay bằng file gốc khi có -->
-  <rect x="5" y="5" width="110" height="110" fill="#fff" stroke="#231f20" stroke-width="7"/>
-  <text x="60" y="80" text-anchor="middle" font-family="Barlow Semi Condensed, Arial Narrow, Arial, sans-serif" font-weight="700" font-size="62" fill="none" stroke="#231f20" stroke-width="4" letter-spacing="-6">RB</text>
-  <rect x="9" y="100" width="25.5" height="6" fill="#d7262b"/>
-  <rect x="34.5" y="100" width="25.5" height="6" fill="#f6c21c"/>
-  <rect x="60" y="100" width="25.5" height="6" fill="#8bbf3f"/>
-  <rect x="85.5" y="100" width="25.5" height="6" fill="#2196d3"/>
-</svg>
