@@ -826,7 +826,7 @@ document.addEventListener("click", e => {
   if (k) { sel.value = k.dataset.pick; document.getElementById("dat-hang").scrollIntoView({behavior: "smooth"}); }
 });
 // Địa chỉ Apps Script nhận đơn (Google Sheet). Để trống thì chỉ tạo nội dung đơn để gửi Zalo.
-const ORDER_ENDPOINT = ""; // nơi nhận đơn của RB (Pancake/Google Sheet), để trống = chỉ gửi qua Zalo
+const ORDER_ENDPOINT = "https://script.google.com/macros/s/AKfycbzd_WD02i4EdkMUs7vkdXjtWoVl6Aal6jf9UHPyJwgq47nld7ewbdhZkTFCkvZdygk/exec"; // Apps Script "Nhận đơn web RB" → Google Sheet + Pancake shop 408088236; để trống = chỉ gửi qua Zalo
 document.getElementById("form").addEventListener("submit", async e => {
   e.preventDefault();
   const v = id => document.getElementById(id).value.trim();
